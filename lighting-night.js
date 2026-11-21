@@ -1,0 +1,1 @@
+window.NightLight={contrast:1.1};

@@ -1,0 +1,1 @@
+window.HeartParticles={count:12};

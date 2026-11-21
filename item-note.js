@@ -1,0 +1,1 @@
+window.ItemNote={id:'note',label:'Nota doblada'};

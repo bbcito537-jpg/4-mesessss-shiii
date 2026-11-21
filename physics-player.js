@@ -1,0 +1,1 @@
+window.PlayerPhysics={speed:24};

@@ -1,0 +1,1 @@
+window.StarParticles={count:24};

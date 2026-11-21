@@ -1,0 +1,1 @@
+window.SaveState={save:s=>localStorage.setItem('bella4',JSON.stringify(s)),load:()=>JSON.parse(localStorage.getItem('bella4')||'null')};

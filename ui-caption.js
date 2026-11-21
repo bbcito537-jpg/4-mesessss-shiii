@@ -1,0 +1,1 @@
+window.CaptionUI={safeMargin:5};

@@ -1,0 +1,1 @@
+window.ParchisClue='cada uno desde su teléfono';

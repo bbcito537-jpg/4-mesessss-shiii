@@ -1,0 +1,1 @@
+window.TzuyuSprite={frames:4};

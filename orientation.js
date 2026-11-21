@@ -1,0 +1,1 @@
+window.Orientation={landscape:()=>innerWidth>innerHeight};

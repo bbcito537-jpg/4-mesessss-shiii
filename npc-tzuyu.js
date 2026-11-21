@@ -1,0 +1,1 @@
+window.TzuyuNPC={mood:'mischievous'};

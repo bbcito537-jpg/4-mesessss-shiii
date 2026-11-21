@@ -1,0 +1,1 @@
+window.InventoryUI={slots:5};

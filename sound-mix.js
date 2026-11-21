@@ -1,0 +1,1 @@
+window.SoundMix={music:.58,sfx:.75};

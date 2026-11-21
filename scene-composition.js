@@ -1,0 +1,1 @@
+window.SceneComposition={style:'pixel-comic'};

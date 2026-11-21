@@ -1,0 +1,1 @@
+window.WorldPhysics={bounds:[5,90,18,78]};

@@ -1,0 +1,1 @@
+window.SFXDoor={type:'wood'};

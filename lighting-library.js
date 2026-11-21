@@ -1,0 +1,1 @@
+window.LibraryLight={warmth:.55};

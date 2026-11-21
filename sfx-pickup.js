@@ -1,0 +1,1 @@
+window.SFXPickup={type:'sparkle'};

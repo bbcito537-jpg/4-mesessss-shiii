@@ -1,0 +1,1 @@
+window.SunsetLight={warmth:.8};

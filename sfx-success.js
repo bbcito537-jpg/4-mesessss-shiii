@@ -1,0 +1,1 @@
+window.SFXSuccess={type:'chime'};

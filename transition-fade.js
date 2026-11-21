@@ -1,0 +1,1 @@
+window.TransitionFade={duration:650};

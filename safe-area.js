@@ -1,0 +1,1 @@
+window.SafeArea={ios:true};

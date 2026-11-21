@@ -1,0 +1,1 @@
+window.TransitionInk={duration:850};

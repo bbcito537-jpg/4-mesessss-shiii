@@ -1,0 +1,1 @@
+window.ClockClue='12:26';

@@ -1,0 +1,1 @@
+window.StoryRoad={vehicle:'U-Haul'};

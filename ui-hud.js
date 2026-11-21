@@ -1,0 +1,1 @@
+window.HudUI={compact:true};

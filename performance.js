@@ -1,0 +1,1 @@
+window.Perf={pixelRatio:Math.min(devicePixelRatio,2)};

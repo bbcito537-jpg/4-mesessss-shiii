@@ -1,0 +1,1 @@
+window.RoomPuzzle={required:['star','note','flower']};

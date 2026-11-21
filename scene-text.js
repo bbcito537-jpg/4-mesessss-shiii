@@ -1,0 +1,1 @@
+window.SceneText={quotes:false};

@@ -1,0 +1,1 @@
+window.StoryHinkley={subject:'Química'};

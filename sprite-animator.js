@@ -1,0 +1,1 @@
+window.SpriteAnimator={fps:9};

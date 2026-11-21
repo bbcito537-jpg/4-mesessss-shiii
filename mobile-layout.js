@@ -1,0 +1,1 @@
+window.MobileLayout={portrait:true};

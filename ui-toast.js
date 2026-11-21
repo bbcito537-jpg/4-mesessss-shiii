@@ -1,0 +1,1 @@
+window.ToastUI={duration:2600};

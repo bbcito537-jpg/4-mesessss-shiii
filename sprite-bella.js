@@ -1,0 +1,1 @@
+window.BellaSprite={directions:4,frames:4};

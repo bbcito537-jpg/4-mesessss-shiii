@@ -1,0 +1,1 @@
+window.TransitionPage={duration:900};

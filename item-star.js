@@ -1,0 +1,1 @@
+window.ItemStar={id:'star',label:'Fragmento de luz'};

@@ -1,0 +1,1 @@
+window.HinkleyClue='mesa de biblioteca';

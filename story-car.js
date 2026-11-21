@@ -1,0 +1,1 @@
+window.StoryCar={driver:'amigo',caller:'amigo'};

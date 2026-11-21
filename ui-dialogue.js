@@ -1,0 +1,1 @@
+window.DialogueUI={typingSpeed:24};
