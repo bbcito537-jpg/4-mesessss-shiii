@@ -1,0 +1,1 @@
+window.ComicBubbles={enabled:false};

@@ -1,0 +1,1 @@
+window.ComicPanels={border:3};

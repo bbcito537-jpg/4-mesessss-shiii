@@ -1,0 +1,1 @@
+window.GiftBracelets={count:2};

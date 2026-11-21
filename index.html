@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#160f19">
+<title>Cuatro meses — Bella</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <section id="start" class="screen active">
+    <div class="start-bg"></div>
+    <div class="start-card pixel-panel">
+      <small>ANGELO × ISABELLA</small>
+      <h1>CUATRO MESES</h1>
+      <p>Una historia que todavía se está escribiendo.</p>
+      <button id="startBtn" class="pixel-btn">COMENZAR</button>
+      <span class="tap-note">Activa el sonido 🔊</span>
+    </div>
+  </section>
+
+  <section id="movie" class="screen">
+    <div id="movieImg" class="movie-img"></div>
+    <div class="grain"></div><div class="vignette"></div>
+    <div id="comicCaption" class="comic-caption">
+      <h2 id="sceneTitle"></h2><p id="sceneText"></p>
+    </div>
+    <div class="movie-progress"><div id="movieBar"></div></div>
+    <button id="skipMovie" class="tiny-btn">Saltar</button>
+  </section>
+
+  <section id="letter" class="screen parchment-wrap">
+    <div class="parchment">
+      <span class="eyebrow">CAPÍTULO SIGUIENTE</span>
+      <h2>Para ti.</h2>
+      <div class="letter-body">
+        <p>Esta parte está reservada para la carta que Angelo quiere escribirte.</p>
+        <p>Cuando llegue el texto definitivo, aparecerá aquí como una página que se abre después de la película.</p>
+      </div>
+      <button id="letterNext" class="pixel-btn dark">CONTINUAR</button>
+    </div>
+  </section>
+
+  <section id="transition" class="screen transition-screen">
+    <div class="transition-card pixel-panel">
+      <p>Pero todavía no termina.</p>
+      <h2>Tzuyu desapareció.</h2>
+      <p>Y dejó un desastre de pistas detrás.</p>
+      <button id="playBtn" class="pixel-btn">ENTRAR</button>
+    </div>
+  </section>
+
+  <section id="game" class="screen game-screen">
+    <div id="gameWorld" class="game-world room1">
+      <img id="roomBg" src="scene-05-escape-room.jpg" alt="">
+      <div id="player" class="player"></div>
+      <div id="tzuyuNpc" class="tzuyu"></div>
+      <div class="hotspot hs-globe" data-item="star" data-msg="Algo brilla dentro del globo…"></div>
+      <div class="hotspot hs-guitar" data-item="note" data-msg="Detrás de la guitarra hay una nota: 'No todo empezó en persona.'"></div>
+      <div class="hotspot hs-box" data-item="key" data-requires="star,note,flower" data-msg="La caja tiene tres ranuras."></div>
+      <div class="hotspot hs-flowers" data-item="flower" data-msg="Una flor distinta a las demás."></div>
+      <div class="hotspot hs-tzuyu" data-msg="Tzuyu te mira como si supiera exactamente lo que está pasando."></div>
+      <div id="door" class="door-zone"></div>
+    </div>
+
+    <div class="hud-top">
+      <div class="bella-card"><span class="bella-mini"></span><div><b>Bella</b><small>Encuentra a Tzuyu</small></div></div>
+      <button id="soundBtn" class="hud-btn">♫</button>
+    </div>
+
+    <div id="objective" class="objective pixel-panel">
+      <b>LA HABITACIÓN DEL ATARDECER</b>
+      <span>Encuentra 3 recuerdos y abre la caja.</span>
+    </div>
+
+    <div id="message" class="message-box"></div>
+
+    <div class="inventory pixel-panel" id="inventory">
+      <div class="slot" data-slot="0"></div><div class="slot" data-slot="1"></div>
+      <div class="slot" data-slot="2"></div><div class="slot" data-slot="3"></div>
+      <div class="slot" data-slot="4"></div>
+    </div>
+
+    <div id="joystick" class="joystick"><div id="stick" class="stick"></div></div>
+    <button id="useBtn" class="use-btn">✋<span>USAR</span></button>
+  </section>
+
+  <section id="memoryRoom" class="screen memory-room">
+    <div class="memory-bg"></div>
+    <div class="memory-card pixel-panel">
+      <h2>Tres recuerdos. Una clave.</h2>
+      <p>Toca los recuerdos en el orden en que llegaron.</p>
+      <div class="memory-grid">
+        <button data-order="2" style="--bg:url('scene-10-hinkley.jpg')"><span>Hinkley</span></button>
+        <button data-order="1" style="--bg:url('scene-02-instagram-night.jpg')"><span>Instagram</span></button>
+        <button data-order="3" style="--bg:url('scene-03-1226.jpg')"><span>12:26</span></button>
+      </div>
+      <div id="memoryResult"></div>
+    </div>
+  </section>
+
+  <section id="finale" class="screen finale">
+    <div class="finale-bg"></div>
+    <div class="finale-copy">
+      <span>LO LOGRASTE.</span>
+      <h2>Todo esto era una sorpresa.</h2>
+      <p>Tzuyu y tu chinito solo querían hacerte desconectar un momento de todo lo demás.</p>
+      <p>Y antes de terminar… queda un regalo.</p>
+      <button id="giftBtn" class="pixel-btn">ABRIR REGALO</button>
+    </div>
+  </section>
+
+  <section id="gift" class="screen gift">
+    <img src="scene-06-bracelets.jpg" alt="Ilustración pixel art de las pulseras">
+    <div class="gift-overlay">
+      <span>CUATRO MESES</span>
+      <h2>Una para ti. Una para mí.</h2>
+      <p>Y esta historia todavía no terminó.</p>
+    </div>
+  </section>
+</div>
+<script src="story-data.js"></script>
+<script src="audio-manager.js"></script>
+<script src="movie-engine.js"></script>
+<script src="game-state.js"></script>
+<script src="joystick.js"></script>
+<script src="collision.js"></script>
+<script src="inventory.js"></script>
+<script src="interaction.js"></script>
+<script src="room-controller.js"></script>
+<script src="memory-puzzle.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

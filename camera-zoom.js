@@ -1,0 +1,1 @@
+window.CameraZoom={min:1.08,max:1.20};

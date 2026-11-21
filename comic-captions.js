@@ -1,0 +1,1 @@
+window.ComicCaptions={narrative:true};

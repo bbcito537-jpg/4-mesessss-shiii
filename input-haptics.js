@@ -1,0 +1,1 @@
+window.Haptics={pulse:()=>navigator.vibrate?.(15)};

@@ -1,0 +1,1 @@
+window.A11y={reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches};

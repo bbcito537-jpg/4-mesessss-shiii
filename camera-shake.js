@@ -1,0 +1,1 @@
+window.CameraShake={enabled:true,strength:2};

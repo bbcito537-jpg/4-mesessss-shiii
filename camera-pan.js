@@ -1,0 +1,1 @@
+window.CameraPan={speed:1.0,ease:'ease-in-out'};

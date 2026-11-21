@@ -1,0 +1,1 @@
+window.KeyboardInput={enabled:true};

@@ -1,0 +1,1 @@
+window.ComicGrain={opacity:.08};

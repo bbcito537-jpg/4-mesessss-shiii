@@ -1,0 +1,1 @@
+window.FinaleCopy={ending:'Una historia que todavía se está escribiendo.'};

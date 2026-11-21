@@ -1,0 +1,1 @@
+window.TouchInput={enabled:true};

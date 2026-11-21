@@ -1,0 +1,1 @@
+window.ItemKey={id:'key',label:'Llave dorada'};
